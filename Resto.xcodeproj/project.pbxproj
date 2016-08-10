@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F168BD71D5601060021660A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F168BD61D5601060021660A /* Reachability.swift */; };
+		2F17DC611D552CB200E31997 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F17DC601D552CB200E31997 /* GoogleService-Info.plist */; };
+		2F7240451D53A0D500CC8A72 /* RestoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA9A1C1D4D414100764B0B /* RestoTests.swift */; };
+		2FBA9A051D4D414000764B0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA9A041D4D414000764B0B /* AppDelegate.swift */; };
+		2FBA9A071D4D414000764B0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA9A061D4D414000764B0B /* ViewController.swift */; };
+		2FBA9A0A1D4D414000764B0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA9A081D4D414000764B0B /* Main.storyboard */; };
+		2FBA9A0D1D4D414000764B0B /* Resto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA9A0B1D4D414000764B0B /* Resto.xcdatamodeld */; };
+		2FBA9A0F1D4D414000764B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA9A0E1D4D414000764B0B /* Assets.xcassets */; };
+		2FBA9A121D4D414000764B0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBA9A101D4D414000764B0B /* LaunchScreen.storyboard */; };
+		2FBA9A281D4D414100764B0B /* RestoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBA9A271D4D414100764B0B /* RestoUITests.swift */; };
+		2FBE58A11D5B33B4002A91E2 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE58A01D5B33B4002A91E2 /* UIExtension.swift */; };
+		6731662C3F8F16D755DFB3BB /* libPods-Resto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAF97BB43A732EDB7A990B8 /* libPods-Resto.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FBA9A191D4D414100764B0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBA99F91D4D413F00764B0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBA9A001D4D413F00764B0B;
+			remoteInfo = Resto;
+		};
+		2FBA9A241D4D414100764B0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBA99F91D4D413F00764B0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBA9A001D4D413F00764B0B;
+			remoteInfo = Resto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14C2B58D996744C97B79440A /* Pods-Resto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Resto/Pods-Resto.release.xcconfig"; sourceTree = "<group>"; };
+		2F168BD61D5601060021660A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2F17DC601D552CB200E31997 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2FBA9A011D4D414000764B0B /* Resto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBA9A041D4D414000764B0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FBA9A061D4D414000764B0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FBA9A091D4D414000764B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FBA9A0C1D4D414000764B0B /* Resto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Resto.xcdatamodel; sourceTree = "<group>"; };
+		2FBA9A0E1D4D414000764B0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBA9A111D4D414000764B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FBA9A131D4D414000764B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBA9A181D4D414100764B0B /* RestoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBA9A1C1D4D414100764B0B /* RestoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoTests.swift; sourceTree = "<group>"; };
+		2FBA9A1E1D4D414100764B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBA9A231D4D414100764B0B /* RestoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBA9A271D4D414100764B0B /* RestoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoUITests.swift; sourceTree = "<group>"; };
+		2FBA9A291D4D414100764B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBE58A01D5B33B4002A91E2 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		78F9CBD97977F7969C9C1993 /* Pods-Resto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Resto/Pods-Resto.debug.xcconfig"; sourceTree = "<group>"; };
+		EEAF97BB43A732EDB7A990B8 /* libPods-Resto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Resto.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBA99FE1D4D413F00764B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6731662C3F8F16D755DFB3BB /* libPods-Resto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA9A151D4D414100764B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA9A201D4D414100764B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CEE95FECAE4CCA25A213FB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78F9CBD97977F7969C9C1993 /* Pods-Resto.debug.xcconfig */,
+				14C2B58D996744C97B79440A /* Pods-Resto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		206502CC3F4DCD155948229D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEAF97BB43A732EDB7A990B8 /* libPods-Resto.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FBA99F81D4D413F00764B0B = {
+			isa = PBXGroup;
+			children = (
+				2FBA9A031D4D414000764B0B /* Resto */,
+				2FBA9A1B1D4D414100764B0B /* RestoTests */,
+				2FBA9A261D4D414100764B0B /* RestoUITests */,
+				2FBA9A021D4D414000764B0B /* Products */,
+				0CEE95FECAE4CCA25A213FB8 /* Pods */,
+				206502CC3F4DCD155948229D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FBA9A021D4D414000764B0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA9A011D4D414000764B0B /* Resto.app */,
+				2FBA9A181D4D414100764B0B /* RestoTests.xctest */,
+				2FBA9A231D4D414100764B0B /* RestoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FBA9A031D4D414000764B0B /* Resto */ = {
+			isa = PBXGroup;
+			children = (
+				2F17DC601D552CB200E31997 /* GoogleService-Info.plist */,
+				2FBA9A041D4D414000764B0B /* AppDelegate.swift */,
+				2FBA9A061D4D414000764B0B /* ViewController.swift */,
+				2FBE58A01D5B33B4002A91E2 /* UIExtension.swift */,
+				2FBA9A081D4D414000764B0B /* Main.storyboard */,
+				2FBA9A0E1D4D414000764B0B /* Assets.xcassets */,
+				2FBA9A101D4D414000764B0B /* LaunchScreen.storyboard */,
+				2FBA9A131D4D414000764B0B /* Info.plist */,
+				2F168BD61D5601060021660A /* Reachability.swift */,
+				2FBA9A0B1D4D414000764B0B /* Resto.xcdatamodeld */,
+			);
+			path = Resto;
+			sourceTree = "<group>";
+		};
+		2FBA9A1B1D4D414100764B0B /* RestoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA9A1C1D4D414100764B0B /* RestoTests.swift */,
+				2FBA9A1E1D4D414100764B0B /* Info.plist */,
+			);
+			path = RestoTests;
+			sourceTree = "<group>";
+		};
+		2FBA9A261D4D414100764B0B /* RestoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA9A271D4D414100764B0B /* RestoUITests.swift */,
+				2FBA9A291D4D414100764B0B /* Info.plist */,
+			);
+			path = RestoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FBA9A001D4D413F00764B0B /* Resto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBA9A2C1D4D414100764B0B /* Build configuration list for PBXNativeTarget "Resto" */;
+			buildPhases = (
+				52D3B435CAD65C03699EFE39 /* [CP] Check Pods Manifest.lock */,
+				2FBA99FD1D4D413F00764B0B /* Sources */,
+				2FBA99FE1D4D413F00764B0B /* Frameworks */,
+				2FBA99FF1D4D413F00764B0B /* Resources */,
+				5D9EB74ABAB0461EFA440598 /* [CP] Embed Pods Frameworks */,
+				6C3E0F3214877B2106EDEBB9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Resto;
+			productName = Resto;
+			productReference = 2FBA9A011D4D414000764B0B /* Resto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FBA9A171D4D414100764B0B /* RestoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBA9A2F1D4D414100764B0B /* Build configuration list for PBXNativeTarget "RestoTests" */;
+			buildPhases = (
+				2FBA9A141D4D414100764B0B /* Sources */,
+				2FBA9A151D4D414100764B0B /* Frameworks */,
+				2FBA9A161D4D414100764B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBA9A1A1D4D414100764B0B /* PBXTargetDependency */,
+			);
+			name = RestoTests;
+			productName = RestoTests;
+			productReference = 2FBA9A181D4D414100764B0B /* RestoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FBA9A221D4D414100764B0B /* RestoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBA9A321D4D414100764B0B /* Build configuration list for PBXNativeTarget "RestoUITests" */;
+			buildPhases = (
+				2FBA9A1F1D4D414100764B0B /* Sources */,
+				2FBA9A201D4D414100764B0B /* Frameworks */,
+				2FBA9A211D4D414100764B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBA9A251D4D414100764B0B /* PBXTargetDependency */,
+			);
+			name = RestoUITests;
+			productName = RestoUITests;
+			productReference = 2FBA9A231D4D414100764B0B /* RestoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FBA99F91D4D413F00764B0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Monday Ventures";
+				TargetAttributes = {
+					2FBA9A001D4D413F00764B0B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BRDY8HXH29;
+						DevelopmentTeamName = "Akshay Markande";
+						ProvisioningStyle = Automatic;
+					};
+					2FBA9A171D4D414100764B0B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BRDY8HXH29;
+						DevelopmentTeamName = "Akshay Markande";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FBA9A001D4D413F00764B0B;
+					};
+					2FBA9A221D4D414100764B0B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BRDY8HXH29;
+						DevelopmentTeamName = "Akshay Markande";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FBA9A001D4D413F00764B0B;
+					};
+				};
+			};
+			buildConfigurationList = 2FBA99FC1D4D413F00764B0B /* Build configuration list for PBXProject "Resto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FBA99F81D4D413F00764B0B;
+			productRefGroup = 2FBA9A021D4D414000764B0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBA9A001D4D413F00764B0B /* Resto */,
+				2FBA9A171D4D414100764B0B /* RestoTests */,
+				2FBA9A221D4D414100764B0B /* RestoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBA99FF1D4D413F00764B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBA9A121D4D414000764B0B /* LaunchScreen.storyboard in Resources */,
+				2F17DC611D552CB200E31997 /* GoogleService-Info.plist in Resources */,
+				2FBA9A0F1D4D414000764B0B /* Assets.xcassets in Resources */,
+				2FBA9A0A1D4D414000764B0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA9A161D4D414100764B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA9A211D4D414100764B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52D3B435CAD65C03699EFE39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D9EB74ABAB0461EFA440598 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resto/Pods-Resto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C3E0F3214877B2106EDEBB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Resto/Pods-Resto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBA99FD1D4D413F00764B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBA9A071D4D414000764B0B /* ViewController.swift in Sources */,
+				2FBA9A051D4D414000764B0B /* AppDelegate.swift in Sources */,
+				2F168BD71D5601060021660A /* Reachability.swift in Sources */,
+				2FBE58A11D5B33B4002A91E2 /* UIExtension.swift in Sources */,
+				2FBA9A0D1D4D414000764B0B /* Resto.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA9A141D4D414100764B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7240451D53A0D500CC8A72 /* RestoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBA9A1F1D4D414100764B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBA9A281D4D414100764B0B /* RestoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FBA9A1A1D4D414100764B0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBA9A001D4D413F00764B0B /* Resto */;
+			targetProxy = 2FBA9A191D4D414100764B0B /* PBXContainerItemProxy */;
+		};
+		2FBA9A251D4D414100764B0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBA9A001D4D413F00764B0B /* Resto */;
+			targetProxy = 2FBA9A241D4D414100764B0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FBA9A081D4D414000764B0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBA9A091D4D414000764B0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FBA9A101D4D414000764B0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBA9A111D4D414000764B0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FBA9A2A1D4D414100764B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FBA9A2B1D4D414100764B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FBA9A2D1D4D414100764B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F9CBD97977F7969C9C1993 /* Pods-Resto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Resto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monday-Ventures.Resto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2FBA9A2E1D4D414100764B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C2B58D996744C97B79440A /* Pods-Resto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Resto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monday-Ventures.Resto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2FBA9A301D4D414100764B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RestoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monday-Ventures.RestoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resto.app/Resto";
+			};
+			name = Debug;
+		};
+		2FBA9A311D4D414100764B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RestoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monday-Ventures.RestoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resto.app/Resto";
+			};
+			name = Release;
+		};
+		2FBA9A331D4D414100764B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RestoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monday-Ventures.RestoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Resto;
+			};
+			name = Debug;
+		};
+		2FBA9A341D4D414100764B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RestoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Monday-Ventures.RestoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Resto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBA99FC1D4D413F00764B0B /* Build configuration list for PBXProject "Resto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBA9A2A1D4D414100764B0B /* Debug */,
+				2FBA9A2B1D4D414100764B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBA9A2C1D4D414100764B0B /* Build configuration list for PBXNativeTarget "Resto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBA9A2D1D4D414100764B0B /* Debug */,
+				2FBA9A2E1D4D414100764B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBA9A2F1D4D414100764B0B /* Build configuration list for PBXNativeTarget "RestoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBA9A301D4D414100764B0B /* Debug */,
+				2FBA9A311D4D414100764B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBA9A321D4D414100764B0B /* Build configuration list for PBXNativeTarget "RestoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBA9A331D4D414100764B0B /* Debug */,
+				2FBA9A341D4D414100764B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FBA9A0B1D4D414000764B0B /* Resto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FBA9A0C1D4D414000764B0B /* Resto.xcdatamodel */,
+			);
+			currentVersion = 2FBA9A0C1D4D414000764B0B /* Resto.xcdatamodel */;
+			path = Resto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FBA99F91D4D413F00764B0B /* Project object */;
+}
